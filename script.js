@@ -13,3 +13,4 @@ function submitItemsToChecklist () {
   document.querySelector(".output").textContent = text;
 });
  */
+
