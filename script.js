@@ -17,6 +17,13 @@ function submitItemsToChecklist() {
 
 }
 
+// Create a "close" button and apply it to each list item
+
+
+
+
+
+
 
 
 
