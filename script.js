@@ -1,4 +1,4 @@
-/* rebecca code
+/* rebecca code*/
 document.getElementById("submit-btn").addEventListener("click", submitItemsToChecklist); 
    
 function submitItemsToChecklist() {
@@ -18,7 +18,7 @@ function submitItemsToChecklist() {
 }
 
 
-rebecca code where what do  why*/
+
 
 
 console.log("hello");
