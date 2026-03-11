@@ -1,9 +1,23 @@
-function submitItemsToChecklist () {
+/* rebecca code*/
+document.getElementById("submit-btn").addEventListener("click", submitItemsToChecklist); 
+   
+function submitItemsToChecklist() {
 
-   let text = document.getElementsByClassName
+    const inputElement = document.getElementById("submission-area");
+    const input = inputElement.value;
+
+    if (input.trim() !== "" ) {
+        const li = document.createElement("li");
+        li.textContent = input;
+
+        document.getElementById("display-list").appendChild(li);
+        document.getElementById("submission-area").value = "";
+       
+}
 
 }
 
+// Create a "close" button and apply it to each list item
 const submit=document.getElementById("submit-btn");
 function hideButton() {
     submit.classList.toggle("");
@@ -11,13 +25,10 @@ function hideButton() {
 
 
 
-/*
- document.getElementById("myForm").addEventListener("submit", function(e) {
-  e.preventDefault(); // stop page reload
 
-  let text = document.getElementById("userText").value;
 
-  document.querySelector(".output").textContent = text;
-});
- */
 
+
+
+
+console.log("hello");
