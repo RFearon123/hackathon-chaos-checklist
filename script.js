@@ -16,16 +16,16 @@ function submitItemsToChecklist() {
 }
 
 }
-
 // Create a "close" button and apply it to each list item
 const submit=document.getElementById("submit-btn");
 function hideButton() {
-    submit.classList.toggle("");
+    submit.classList.toggle("botton");
+   // submit.style.backgroundColor = 
 }
 
 
 
-
+submit.addEventListener("click", hideButton)
 
 
 
