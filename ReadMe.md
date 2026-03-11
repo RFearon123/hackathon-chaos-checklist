@@ -1,0 +1,13 @@
+Checklist 
+-Basics: write & submit item & crossout items
+
+Chaos
+* jumble up letters
+* every nth click- colour scheme changes, text and background
+* fizz/buzz 3rd/5th item submitted, text changes
+* every 10th click changes into a picture whilst transitioning itgoes into black and white then when it stops moving it shows what colour 
+* side bar keeps changing colours
+* submit button keeps runnung away from you or disappears
+* every nth time answer a riddle to complete the submission of checklist item
+* checklist moving gallery vertically- diffeent sized items
+
