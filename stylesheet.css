@@ -1,8 +1,33 @@
 
-box-sizing: border-box;
+
 
 body{
-    background-color:greenyellow
+    background-color:greenyellow;
+    padding: 5%;
+    color:rgb(0, 0, 0)
+}
 
+main{
+    background-color: purple;
+    color:ghostwhite;
+    padding: 5%;
+    
+}
 
+header{
+    background-color: yellow;
+    color:blue;
+    padding: 5%;
+}
+
+footer{
+    background-color: black;
+    color: chocolate;
+    padding: 5%;
+}
+
+nav{ 
+    background-color: grey;
+    color: crimson;
+    padding: 5%;
 }
