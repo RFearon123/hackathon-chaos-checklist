@@ -4,6 +4,13 @@ function submitItemsToChecklist () {
 
 }
 
+const submit=document.getElementById("submit-btn");
+function hideButton() {
+    submit.classList.toggle("");
+}
+
+
+
 /*
  document.getElementById("myForm").addEventListener("submit", function(e) {
   e.preventDefault(); // stop page reload
