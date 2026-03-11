@@ -10,7 +10,7 @@
 <body>
     <header>
         <h1>
-            Chaotic Checklist
+            Chaotic Checklist blop
         </h1>
 
     </header>
@@ -21,23 +21,26 @@
             <h2>
                 My to-do list
             </h2>
-            <ul>
-                <!--Display-->
+            <ul id="display-list">
+                
             </ul>
 
 
 
         </section>
 
-        <section class="submit-items-checklist">
+        <section class="submission-area">
 
             <fieldset>
             
-                <label for="submit-items-checklist">Please, submit items to your checklist here.</label>
-                    <textarea id="comments" name="comments" placeholder="Comment here"></textarea>
+                <label for="submission-area">Please, submit items to your checklist here.</label>
+                    <input id="submission-area" name="submission-area" placeholder="Comment here">
+                    
+                
+             <button type="button" onclick="submitButton()">Submit</button>
+        
             </fieldset>
 
-             <button type="button" onclick="submitItemsToChecklist()">Submit</button>
         </section>
 
         
@@ -51,6 +54,8 @@
 
     <footer>
         <!--copyrights-->
+        Photo by <a href="https://unsplash.com/@mhends85?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Hends</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-turkey-with-a-person-in-the-background-FURK5-r-4-M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
     </footer>
 
     <script>src="script.js"</script>
