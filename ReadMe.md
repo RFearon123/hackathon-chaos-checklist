@@ -10,4 +10,5 @@ Chaos
 * submit button keeps runnung away from you or disappears
 * every nth time answer a riddle to complete the submission of checklist item
 * checklist moving gallery vertically- diffeent sized items
+* moving gallery for header horizontally ducks
 
