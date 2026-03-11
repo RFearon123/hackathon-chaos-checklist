@@ -17,12 +17,21 @@ function submitItemsToChecklist() {
 
 }
 
-// Create a "close" button and apply it to each list item
-/* 
-const submit=document.getElementById("submit-btn");
-function hideButton() {
-    submit.classList.toggle("");
+
+ 
+// Create a "close" button and append it to each list item
+/*let displayListItems = document.getElementsByTagName("LI");
+let i;
+for (i = 0; i < displayListItems.length; i++) {
+  let span = document.createElement("span");
+span.textContent = "×";
+  span.className = "close";
+ 
+  displayListItems[i].appendChild(span);
+
 }
+  */
+ 
 
 
 
