@@ -1,16 +1,24 @@
-function submitItemsToChecklist () {
+/* rebecca code
+document.getElementById("submit-btn").addEventListener("click", submitItemsToChecklist); 
+   
+function submitItemsToChecklist() {
 
-   let text = document.getElementsByClassName
+    const inputElement = document.getElementById("submission-area");
+    const input = inputElement.value;
+
+    if (input.trim() !== "" ) {
+        const li = document.createElement("li");
+        li.textContent = input;
+
+        document.getElementById("display-list").appendChild(li);
+        document.getElementById("submission-area").value = "";
+       
+}
 
 }
 
-/*
- document.getElementById("myForm").addEventListener("submit", function(e) {
-  e.preventDefault(); // stop page reload
 
-  let text = document.getElementById("userText").value;
+rebecca code where what do  why*/
 
-  document.querySelector(".output").textContent = text;
-});
- */
 
+console.log("hello");
