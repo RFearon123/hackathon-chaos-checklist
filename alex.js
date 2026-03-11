@@ -27,3 +27,5 @@ if(clickCounter === Math.floor(Math.random() * 10) + 1){
 //subButton.addEventListener("click", toggleColour);
 
 clickChecker.addEventListener("click", clickCount);
+
+
