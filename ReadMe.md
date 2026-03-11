@@ -14,7 +14,7 @@ Chaos
 * moving gallery for header horizontally ducks
 
 
-* rebecca - to make submit checklist work
+* rebecca - to make submit checklist work, * every nth time answer a riddle to complete the submission of checklist item
 * alex - every nth click colour scheme changes
 * lexi - fizz/buzz
 * sara -  submit buttons runs away from you
