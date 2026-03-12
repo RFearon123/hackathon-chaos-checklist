@@ -41,6 +41,10 @@ background-color: aquamarine;
 
 }
 
+.textsize{
+    font-size: xx-small;
+}
+
 .button{
 background-color: aqua;
 visibility: hidden;
