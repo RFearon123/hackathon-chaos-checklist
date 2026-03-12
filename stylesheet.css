@@ -48,8 +48,11 @@ background-color: aqua;
 
 /*make li weird rotate degree*/
 li:hover {
-    transform: rotate(10deg);
-    transition: transform 0.2s;
+    transform: rotate(300deg);
+ 
 
+}
 
+li {
+    transition: transform 10s; /* apply smooth transition to the element */
 }
