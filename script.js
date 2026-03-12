@@ -51,3 +51,13 @@ function display(){
 
 }
 
+// if delete button pressed webpage go white/ black, body maybe fade 
+
+document.getElementById("delete-btn").addEventListener("click", () => {
+    const overlay = document.getElementById("whiteningDeletion");
+    overlay.style.opacity = "1";
+    setTimeout(() => {
+        document.body.innerHTML = ""; // page fully blank
+    }, 1500); // match the transition duration
+});
+
