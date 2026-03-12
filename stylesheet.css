@@ -46,9 +46,10 @@ background-color: aquamarine;
 }
 
 .button{
-background-color: aqua;
-visibility: hidden;
+    background-color: aqua;
+    visibility: hidden;
 }
+
 #ducks{
     height: auto;
     width: 80%;
