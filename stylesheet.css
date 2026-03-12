@@ -80,8 +80,68 @@ body {
     }
 }
 
+/*Bohdan's below*/
+aside {
+    background-color: cyan;
+    color: black;
+    width: 40%;
+    padding: 15px;
+    float: left;
+    margin-left: -5.5%;
+    margin-right: 5.5%;
+    box-sizing: border-box;
+}
 
+#aside-gallery {
+    background-color: rgb(122, 239, 161);
+    color: black;
+    height: 15rem;
+    overflow: hidden;
+    position: relative;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
 
+.gallery-track {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    animation: scroll-up 10s linear infinite;
+}
+
+.picture-holder {
+    background-color: grey;
+    padding: 0.5rem;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.gallery-track img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.credits {
+    margin-top: 0.5rem;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    font-size: 0.85rem;
+}
+
+@keyframes scroll-up {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-95%);
+    }
+}
+
+/*Bohdan's above*/
 
 
 
