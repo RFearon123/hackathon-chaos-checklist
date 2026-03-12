@@ -80,24 +80,6 @@ body {
     }
 }
 
-/*delete button*/
-body {
-    background-color: greenyellow;
-    transition: background-color 1.5s ease, opacity 1.5s ease;
-}
-
-#whiteningDeletion {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    opacity: 0;            /* start fully transparent */
-    pointer-events: none;  /* allow clicks through */
-    transition: opacity 1.5s ease;
-    z-index: 9999;         /* sit above all content */
-}
 
 
 

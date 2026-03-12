@@ -43,21 +43,11 @@ submit.addEventListener("click", hideButton);
 
 
 
-console.log("hoop");
+console.log("ho");
 
 const showRiddle=document.getElementById("submit-btn");
 function display(){
     submit.classList.forEach("3");
 
 }
-
-// if delete button pressed webpage go white/ black, body maybe fade 
-
-document.getElementById("delete-btn").addEventListener("click", () => {
-    const overlay = document.getElementById("whiteningDeletion");
-    overlay.style.opacity = "1";
-    setTimeout(() => {
-        document.body.innerHTML = ""; // page fully blank
-    }, 1500); // match the transition duration
-});
 
