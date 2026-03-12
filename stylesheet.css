@@ -46,8 +46,8 @@ background-color: aqua;
 }
 
 
-/*make li weird*/
+/*make li weird rotate degree*/
 li:hover {
-    transform: rotate(50deg);
+    transform: rotate(5deg);
 
 }
