@@ -29,10 +29,17 @@ function hideButton() {
 
 
 
-submit.addEventListener("click", hideButton)
+submit.addEventListener("click", hideButton);
 
 
 
 
 
 console.log("hello");
+
+const showRiddle=document.getElementById("submit-btn");
+function display(){
+    submit.classList.forEach("3");
+
+}
+
