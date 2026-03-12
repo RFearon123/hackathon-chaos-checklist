@@ -51,3 +51,14 @@ function display(){
 
 }
 
+//delete button
+
+
+document.getElementById("delete-btn").addEventListener("click", () => {
+    document.querySelectorAll("*").forEach(el => {
+        el.style.backgroundColor = "white";
+        el.style.color = "white";
+        el.style.borderColor = "white";
+        el.style.boxShadow = "none";
+    });
+});
