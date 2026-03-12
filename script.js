@@ -47,12 +47,28 @@ function randomTask() {
       
 
 
+// Create a "close" button and apply it to each list item
+const submit=document.getElementById("submit-btn");
+function hideButton() {
+    submit.classList.toggle("botton");
+   // submit.style.backgroundColor = 
+}
+
+ 
 
 
 
+submit.addEventListener("click", hideButton);
 
 
 
 
 
 console.log("hello");
+
+const showRiddle=document.getElementById("submit-btn");
+function display(){
+    submit.classList.forEach("3");
+
+}
+

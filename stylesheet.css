@@ -41,15 +41,18 @@ background-color: aquamarine;
 
 }
 
-.botton{
+.button{
 background-color: aqua;
-
+visibility: hidden;
 }
 #ducks{
-    height: 60%;
+    height: auto;
     width: 80%;
 }
 
+.submit-btn{
+visibility: hidden;
+}
 
 /*make li weird rotate degree*/
 li:hover {
@@ -61,3 +64,14 @@ li:hover {
 li {
     transition: transform 10s; /* apply smooth transition to the element */
 }
+.hidden{
+ display: none;
+ }
+
+.riddle {
+background-color: olive;
+width: 50%;
+height: 40vh;
+z-index: 999%;
+position: absolute;
+ }
