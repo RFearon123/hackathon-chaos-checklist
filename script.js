@@ -45,11 +45,11 @@ submit.addEventListener("click", hideButton);
 
 console.log("ho");
 
-const showRiddle=document.getElementById("submit-btn");
+/*const showRiddle=document.getElementById("submit-btn");
 function display(){
     submit.classList.forEach("3");
 
-}
+} */
 
 //delete button
 
@@ -62,3 +62,5 @@ document.getElementById("delete-btn").addEventListener("click", () => {
         el.style.boxShadow = "none";
     });
 });
+
+// Get the modal
