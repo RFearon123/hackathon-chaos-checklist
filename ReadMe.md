@@ -15,7 +15,7 @@ Chaos
 
 
 * rebecca - to make submit items to checklist work, li weird roatations when hover, when press submit with no text then delivers string defeat the final boss of monday, make body fade weirdly, when loads from 0 to 1 opacity in 10secs, when delete button is pressed screen whites out
-* alex - every nth click colour scheme changes
+* alex - every nth (randomly generated no.1 between 1-10) click colour scheme changes
 * lexi - fizz/buzz
 * sara -  submit buttons runs away from you, riddle
 * bohdan -gallery
