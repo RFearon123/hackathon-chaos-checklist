@@ -58,6 +58,21 @@ li {
 }
 
 
+/*make body fade weirdly, when loads from 0 to 1 opacity in 10secs*/
+
+body {
+    opacity: 0;
+    animation: fadeIn 10s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
 
 
 
