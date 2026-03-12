@@ -28,7 +28,6 @@ nav{
     background-color: grey;
     color: crimson;
     padding: 5%;
-
 }
 
 .funkyColour{
@@ -41,37 +40,26 @@ background-color: aquamarine;
 
 }
 
-.button{
+.botton{
 background-color: aqua;
-visibility: hidden;
-}
-#ducks{
-    height: auto;
-    width: 80%;
+
 }
 
-.submit-btn{
-visibility: hidden;
-}
 
 /*make li weird rotate degree*/
 li:hover {
-    transform: rotate(300deg);
+    transform: rotate(360deg);
  
 
 }
 
 li {
-    transition: transform 10s; /* apply smooth transition to the element */
+    transition: transform 10s; /* make rotation smoother */
 }
-.hidden{
- display: none;
- }
 
-.riddle {
-background-color: olive;
-width: 50%;
-height: 40vh;
-z-index: 999%;
-position: absolute;
- }
+
+
+
+
+
+
