@@ -1,4 +1,4 @@
-/* rebecca code*/
+// make list
 document.getElementById("submit-btn").addEventListener("click", submitItemsToChecklist); 
    
 function submitItemsToChecklist() {
@@ -9,6 +9,8 @@ function submitItemsToChecklist() {
     if (input.trim() !== "" ) {
         const li = document.createElement("li");
         li.textContent = input;
+   
+     
 
         document.getElementById("display-list").appendChild(li);
         document.getElementById("submission-area").value = "";
@@ -19,8 +21,9 @@ function submitItemsToChecklist() {
 
 
  
-// Create a "close" button and append it to each list item
-/*let displayListItems = document.getElementsByTagName("LI");
+// Create a "close" button and append it to each list item that is added to list
+
+let displayListItems = document.getElementsByTagName("LI");
 let i;
 for (i = 0; i < displayListItems.length; i++) {
   let span = document.createElement("span");
@@ -30,8 +33,9 @@ span.textContent = "×";
   displayListItems[i].appendChild(span);
 
 }
-  */
- 
+  
+ /*if (inputValue === '') {
+    alert("You must write something!");*/
 
 
 
