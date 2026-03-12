@@ -46,3 +46,8 @@ background-color: aqua;
 }
 
 
+/*make li weird*/
+li:hover {
+    transform: rotate(50deg) scale(1.7);
+
+}

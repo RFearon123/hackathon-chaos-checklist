@@ -17,25 +17,11 @@ function submitItemsToChecklist() {
        
 }
 
-}
+} 
 
 
- 
-// Create a "close" button and append it to each list item that is added to list
+       
 
-let displayListItems = document.getElementsByTagName("LI");
-let i;
-for (i = 0; i < displayListItems.length; i++) {
-  let span = document.createElement("span");
-span.textContent = "×";
-  span.className = "close";
- 
-  displayListItems[i].appendChild(span);
-
-}
-  
- /*if (inputValue === '') {
-    alert("You must write something!");*/
 
 
 
