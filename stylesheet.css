@@ -13,7 +13,7 @@ main{
 }
 
 header{
-    background-color: yellow;
+    background-color: rgb(202, 202, 117);
     color:blue;
     padding: 5%;
 }
