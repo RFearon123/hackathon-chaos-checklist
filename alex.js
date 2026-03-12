@@ -6,7 +6,8 @@
 const clickChecker = document.body;
 
 let clickCounter = 0;
-
+let randomNum =  Math.floor(Math.random() * 10) + 1;
+console.log("random number " + randomNum)
 function toggleColour(){
     let ele = document.body;
    ele.classList.toggle("funkyColour")
@@ -14,10 +15,12 @@ function toggleColour(){
 
 function clickCount(){
  clickCounter +=1;
- console.log(clickCounter);
  
-if(clickCounter === Math.floor(Math.random() * 10) + 1){
+if(clickCounter === randomNum){
+    randomNum = Math.floor(Math.random() * 10) + 1;
+    console.log("random number " + randomNum)
     toggleColour();
+
     clickCounter = 0;
 }
 }
@@ -27,3 +30,5 @@ if(clickCounter === Math.floor(Math.random() * 10) + 1){
 //subButton.addEventListener("click", toggleColour);
 
 clickChecker.addEventListener("click", clickCount);
+
+
