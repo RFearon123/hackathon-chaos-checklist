@@ -13,7 +13,7 @@ main{
 }
 
 header{
-    background-color: yellow;
+    background-color: rgb(202, 202, 117);
     color:blue;
     padding: 5%;
 }
@@ -28,6 +28,7 @@ nav{
     background-color: grey;
     color: crimson;
     padding: 5%;
+
 }
 
 .funkyColour{
@@ -44,5 +45,19 @@ background-color: aquamarine;
 background-color: aqua;
 visibility: hidden;
 }
+#ducks{
+    height: 60%;
+    width: 80%;
+}
 
 
+/*make li weird rotate degree*/
+li:hover {
+    transform: rotate(300deg);
+ 
+
+}
+
+li {
+    transition: transform 10s; /* apply smooth transition to the element */
+}

@@ -1,4 +1,4 @@
-/* rebecca code*/
+// make list
 document.getElementById("submit-btn").addEventListener("click", submitItemsToChecklist); 
    
 function submitItemsToChecklist() {
@@ -9,6 +9,8 @@ function submitItemsToChecklist() {
     if (input.trim() !== "" ) {
         const li = document.createElement("li");
         li.textContent = input;
+   
+     
 
         document.getElementById("display-list").appendChild(li);
         document.getElementById("submission-area").value = "";
