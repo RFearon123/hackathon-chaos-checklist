@@ -2,7 +2,8 @@
 body{
     background-color:greenyellow;
     padding: 5%;
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
+    min-height: px;
 }
 
 main{
@@ -45,9 +46,52 @@ background-color: aqua;
 
 }
 
-
 /*make li weird*/
 li:hover {
     transform: rotate(50deg);
+}
 
+aside {
+    background-color: cyan;
+    color: black;
+    width: 30%;
+    padding: 15px;
+    float: left;
+    margin-left: -5.5%;
+    margin-right: 5.5%;
+    box-sizing: border-box;
+}
+
+#aside-gallery {
+    background-color: rgb(122, 239, 161);
+    color: black;
+    height: 15rem;
+    overflow: hidden;           /* hides anything above/below the section */
+    position: relative;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.gallery-track {
+    display: flex;
+    flex-direction: column;     /* vertical layout */
+    gap: 1rem;
+    animation: scroll-up 18s linear infinite;
+}
+
+#aside-gallery p {
+    margin: 0;
+    padding: 0.75rem;
+    background: grey;
+    border-radius: 8px;
+}
+
+@keyframes scroll-up {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-50%);
+    }
 }
