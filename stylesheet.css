@@ -28,6 +28,7 @@ nav{
     background-color: grey;
     color: crimson;
     padding: 5%;
+
 }
 
 .funkyColour{
@@ -43,6 +44,10 @@ background-color: aquamarine;
 .botton{
 background-color: aqua;
 
+}
+#ducks{
+    height: 60%;
+    width: 80%;
 }
 
 
